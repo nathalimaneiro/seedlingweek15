@@ -1,0 +1,301 @@
+/*My Custom CSS*/
+.navbar-light .navbar-nav .nav-link {
+    color: darkgreen;
+
+}
+img {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+body {
+    background-color: white;
+    padding-top: 25px;
+
+}
+
+h1{
+    color: darkgreen;
+    text-align: center;
+    
+    
+}
+h2 {
+    font-family: 'Fredoka One', ;
+    color: darkgreen;
+    text-align: left;
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, .4)  inset;
+    /*background: linlear gradient(to bottom, #fff 30%, #fcfcfc 40%, #f8f8f8 50%, #f0f0f0 100%);*/
+    border-radius: 7px;
+}
+
+@keyframes slidein{
+    0%{
+        margin-left: 0%;
+        
+    }
+    50%{
+        margin-left: 150px;
+            }
+    100%{
+        margin-left: 0%;
+    }
+    
+    
+}
+
+
+
+h3 {color: darkgreen;}
+  
+
+p {
+    font-family: 'Oswald', sans-serif;
+    
+}
+h5{
+    color: darkgreen;
+}
+
+
+.p-2 {
+    width: 600px;
+}
+ 
+.clearfix::after,
+.calendar ol::after{
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*calender styling----------*/
+
+.calendar{
+    border-radius: 60px;
+}
+@media (min-width:992px){
+    .date{
+        font-size: 3.5rem;
+    }
+}
+.calendar ol li{
+    float: left;
+    width: 14.28571%
+}
+.calendar .day-names{
+    border-bottom: 1px solid #eee;
+    
+}
+.calendar .day-names li{
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.calendar .days li{
+    border-bottom: 1px solid #eee;
+    min-height: 8rem;
+}
+
+.calendar .days li .date{
+    margin: 0.5rem 0;
+}
+
+.calendar .days li .event{
+    font-size: 0.75rem;
+    padding: 0.4rem;
+    color:white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 4rem;
+    margin-bottom: 1px;
+}
+
+.calendar .days li .event.span-2{
+    width:200%;
+}
+
+.calendar .days li .event.begin{
+    border-radius: 1rem 0 0 1rem;
+}
+.calendar .days li event.end{
+    border-radius: 0 1rem 1rem 0;
+}
+.calendar .days li .event.clear{
+    background: none;
+}
+.calendar .days li:nth-child(n+29)
+{border-bottom: none;}
+
+.calendar .days li.outside .date{
+    color: #ddd;
+}
+
+.demo:hover .event bg-success {
+    animation-name: date;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.date{
+    border-top: 50px solid #ccc; 
+    height:80px;
+    font-size: 16px;
+    
+}
+
+/*demo calendar*/
+
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
+}
+
+
+
+.container2{
+    width: 50%;
+    margin: auto;
+    
+}
+/* end calendar//////////*/
+
+
+
+.p card-text{
+    color: darkgreen;
+}
+
+
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+}
+
+
+
+.btn{
+    background-color: darkgreen;
+    border-color: darkgreen;
+    color: antiquewhite;
+   
+}
+
+.card{
+    text-align: center;
+    
+}
+.card, a:hover {
+  text-decoration: none;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+
+
+.container4 {
+  width:640px;
+  height:360px;
+  margin: auto;
+}
+
+.card2{
+    padding: inherit;
+    
+
+}
+
+
+.sm-list{
+    background-color: darkgreen;
+    
+      
+}
+
+.sm-link{
+    color: white;
+    text-emphasis-color:darkgreen;
+}
+
+@media all and (max-width: 767px) {
+        .flexclassname div {
+            flex-direction: column; 
+        }
+        .fleximage1 div {
+            display: inline-block;
+            width: 100%;
+        }
+        .fleximage2 div {
+            display: inline-block;
+            width: 100%;
+            order: 2;
+        }
+}
+
+
+
+.d-flex{
+    background-color: darkgreen;
+    width: auto;
+    padding-left: 100px;
+    margin: auto;
+}
+
+.d-flex h3{
+    color:white;
+}
+
+
+.box {
+  display: flex;
+  align-items: stretch;
+  margin: auto;
+  padding-left: 410px
+}
+  
+
+
+.modal-footer{
+    padding: inherit;
+    text-align: center;
+  
+    
+}
+  
+
+.form-select{
+    margin:inherit;
+
+    
+}
+
+.container{
+    margin: auto;
+}
+
+footer{
+    margin: auto;
+}
